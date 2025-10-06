@@ -6,9 +6,12 @@ import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
 import NotFound from "./pages/NotFound";
 
+import ListingDetail from "./pages/ListingDetail";
+
 export const routes: RouteObject[] = [
   { path: "/", element: <Home /> },
   { path: "/listings", element: <Listings /> },
+  { path: "/listing/:id", element: <ListingDetail /> },
   { path: "/about", element: <About /> },
   { path: "/contact", element: <Contact /> },
   { path: "/faq", element: <FAQ /> },

@@ -126,5 +126,35 @@
     "a6": "We support common local methods and cards. Some hosts accept cash on confirmation.",
     "q7": "Is there customer support?",
     "a7": "Yes. Contact us via WhatsApp or the contact form for urgent issues."
+  },
+  "list": {
+    "back": "Back to listings",
+    "not_found": "Listing not found."
+  },
+  "detail": {
+    "about": "About this place",
+    "about_body": "Comfortable, private spot suitable for families. Clean facilities and clear house rules. Exact address is shared after confirmation.",
+    "amenities": "Amenities",
+    "amenity": {
+      "parking": "Private parking",
+      "bbq": "BBQ area",
+      "seating": "Outdoor seating",
+      "bath": "Bathroom/changing room"
+    },
+    "rules": "Rules",
+    "rule": {
+      "id": "ID may be required at check-in",
+      "guests": "Respect max guests and timing",
+      "clean": "Keep the place clean; no glass by the pool"
+    },
+    "book": "Request to book",
+    "book_hint": "Select date and time. We’ll confirm availability fast.",
+    "slot": {
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening"
+    },
+    "request": "Send request",
+    "note": "No payment is taken now. Host confirms first."
   }
 }

@@ -127,7 +127,7 @@ export default function Listings() {
 
       <Grid>
         {filtered.map((l) => (
-          <Card to={`/listings?id=${l.id}`} key={l.id}>
+          <Card to={`/listing/${l.id}`} key={l.id}>
             <Media img={l.img} />
             <Body>
               <Name>{pickLocale(l.name, lang)}</Name>
