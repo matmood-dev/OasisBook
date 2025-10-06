@@ -156,5 +156,14 @@
     },
     "request": "Send request",
     "note": "No payment is taken now. Host confirms first."
+  },
+  "404": {
+    "title": "Page not found",
+    "sub": "The page you’re looking for doesn’t exist or was moved.",
+    "home": "Go home",
+    "explore": "Browse listings",
+    "contact": "Contact us",
+    "faq": "Read FAQ",
+    "code": "Error code: 404 — Not Found"
   }
 }
