@@ -1,10 +1,56 @@
 {
   "brand": "OasisBook",
-  "nav": { "home": "Home", "listings": "Listings" },
-  "actions": { "book": "Book now", "theme": "Theme", "lang": "Language" },
+  "nav": {
+    "home": "Home",
+    "listings": "Listings"
+  },
+  "actions": {
+    "book": "Search",
+    "theme": "Theme",
+    "lang": "Language"
+  },
   "home": {
     "title": "Find pools and camps across Bahrain",
-    "subtitle": "Search verified weekend spots. Book in minutes."
+    "subtitle": "Browse verified weekend spots and book in minutes.",
+    "search_placeholder": "Search pools, camps, or areas",
+    "featured": "Featured this week",
+    "categories": "Categories",
+    "featured_pools": "Popular pools",
+    "featured_camps": "Popular camps",
+    "how": "How it works",
+    "how.search": "Search",
+    "how.search_sub": "Find a pool or camp by area and date.",
+    "how.pick": "Pick your spot",
+    "how.pick_sub": "View photos, amenities, and rules.",
+    "how.book": "Book",
+    "how.book_sub": "Reserve instantly. Pay on confirmation.",
+    "cta.title": "Ready for the weekend?",
+    "cta.sub": "Browse all listings and pick your perfect spot.",
+    "cta.btn": "Explore listings"
   },
-  "listings": { "title": "Available spots", "pool": "Pool", "camp": "Camp" }
+  "listings": {
+    "title": "Available spots",
+    "pool": "Pool",
+    "camp": "Camp",
+    "sort": {
+      "relevant": "Sort: Relevant",
+      "low": "Price: Low to High",
+      "high": "Price: High to Low"
+    },
+    "empty": "No results. Try different filters."
+  },
+  "footer": {
+    "tagline": "Book pools and camps across Bahrain with fast search and clear pricing.",
+    "explore": "Explore",
+    "company": "Company",
+    "about": "About",
+    "contact": "Contact",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "help": "Help",
+    "faq": "FAQ",
+    "support": "Support",
+    "hosts": "Become a host",
+    "madein": "Made by"
+  }
 }

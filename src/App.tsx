@@ -1,7 +1,18 @@
 import { useRoutes } from "react-router-dom";
 import { routes } from "./routes";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import styled from "styled-components";
+
+const Page = styled.div`
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+`;
+
+const Main = styled.main`
+  flex: 1; /* pushes footer down */
+`;
 
 const Container = styled.div`
   max-width: 1120px;
@@ -12,9 +23,12 @@ const Container = styled.div`
 export default function App() {
   const element = useRoutes(routes);
   return (
-    <>
+    <Page>
       <Navbar />
-      <Container>{element}</Container>
-    </>
+      <Main>
+        <Container>{element}</Container>
+      </Main>
+      <Footer />
+    </Page>
   );
 }
