@@ -11,7 +11,7 @@ const Page = styled.div`
 `;
 
 const Main = styled.main`
-  flex: 1; /* pushes footer down */
+  flex: 1;
 `;
 
 const Container = styled.div`

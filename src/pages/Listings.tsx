@@ -19,7 +19,6 @@ export default function Listings() {
   const lang = (i18n.language as "en" | "ar") || "en";
   const q = useQuery();
 
-  // initial state from URL if present
   const [term, setTerm] = useState(q.get("query") || "");
   const [type, setType] = useState<ListingType | "all">(
     (q.get("type") as ListingType) || "all"
@@ -100,7 +99,6 @@ export default function Listings() {
         </Select>
       </Controls>
 
-      {/* quick area chips */}
       <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
         {areas.map((a) => (
           <button

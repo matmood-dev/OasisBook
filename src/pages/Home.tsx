@@ -8,7 +8,6 @@ import heroImg from "../assets/hero.jpg";
 import catPools from "../assets/categories/pools.png";
 import catCamps from "../assets/categories/camps.jpg";
 
-/* ==== component ==== */
 export default function Home() {
   const { t } = useTranslation();
   const { i18n } = useTranslation();
@@ -23,7 +22,6 @@ export default function Home() {
 
   return (
     <Wrap>
-      {/* Hero */}
       <Hero>
         <HeroMedia img={heroImg} />
         <HeroTint />
@@ -60,7 +58,6 @@ export default function Home() {
             </Chips>
           </div>
 
-          {/* highlight tile */}
           <CatTile
             img="https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1200&auto=format&fit=crop"
             to="/listings?featured=true"
@@ -70,7 +67,6 @@ export default function Home() {
         </HeroContent>
       </Hero>
 
-      {/* Categories */}
       <SectionHead>
         <SectionTitle>{t("home.categories", "Categories")}</SectionTitle>
       </SectionHead>
@@ -100,7 +96,6 @@ export default function Home() {
         </CatTile>
       </CatGrid>
 
-      {/* Featured pools */}
       <SectionHead>
         <SectionTitle>{t("home.featured_pools", "Popular pools")}</SectionTitle>
       </SectionHead>
@@ -119,7 +114,6 @@ export default function Home() {
         ))}
       </Grid>
 
-      {/* Featured camps */}
       <SectionHead>
         <SectionTitle>{t("home.featured_camps", "Popular camps")}</SectionTitle>
       </SectionHead>
@@ -138,7 +132,6 @@ export default function Home() {
         ))}
       </Grid>
 
-      {/* How it works */}
       <SectionHead>
         <SectionTitle>{t("home.how", "How it works")}</SectionTitle>
       </SectionHead>
@@ -166,7 +159,6 @@ export default function Home() {
         </Step>
       </Steps>
 
-      {/* CTA */}
       <Cta>
         <div>
           <strong>{t("home.cta.title", "Ready for the weekend?")}</strong>
@@ -183,14 +175,12 @@ export default function Home() {
   );
 }
 
-/* ==== layout ==== */
 const Wrap = styled.section`
   display: grid;
   gap: 28px;
   padding: 24px 0 56px;
 `;
 
-/* ==== hero ==== */
 const Hero = styled.div`
   position: relative;
   border: 1px solid ${({ theme }) => theme.colors.border};
@@ -273,7 +263,6 @@ const Button = styled.button`
   }
 `;
 
-/* quick chips */
 const Chips = styled.div`
   display: flex;
   gap: 8px;
@@ -294,7 +283,6 @@ const Chip = styled(Link)`
   }
 `;
 
-/* ==== section header ==== */
 const SectionHead = styled.div`
   display: flex;
   align-items: baseline;
@@ -309,14 +297,12 @@ const SectionTitle = styled.h2`
   line-height: 1.2;
 `;
 
-/* ==== grids ==== */
 const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: 14px;
 `;
 
-/* image card */
 const Card = styled(Link)`
   position: relative;
   display: block;
@@ -361,7 +347,6 @@ const Badge = styled.span`
   font-size: 12px;
 `;
 
-/* categories tiles */
 const CatGrid = styled.div`
   display: grid;
   gap: 14px;
@@ -378,7 +363,6 @@ const CatTile = styled(Link)<{ img: string }>`
   aspect-ratio: 16 / 9;
   text-decoration: none;
 
-  /* image */
   &::before {
     content: "";
     position: absolute;
@@ -388,7 +372,6 @@ const CatTile = styled(Link)<{ img: string }>`
     transform: scale(1.02);
   }
 
-  /* gradient + subtle vignette */
   &::after {
     content: "";
     position: absolute;
@@ -404,7 +387,6 @@ const CatTile = styled(Link)<{ img: string }>`
     pointer-events: none;
   }
 
-  /* hover lift */
   transition: transform 0.18s ease, box-shadow 0.18s ease;
   &:hover {
     transform: translateY(-2px);
@@ -439,7 +421,6 @@ const Dot = styled.i`
   background: ${({ theme }) => theme.colors.primary};
 `;
 
-/* optional mini subtitle on the right */
 const CatHint = styled.span`
   position: absolute;
   inset-inline-end: 12px;
@@ -455,7 +436,6 @@ const CatHint = styled.span`
   backdrop-filter: blur(6px);
 `;
 
-/* how it works */
 const Steps = styled.div`
   display: grid;
   gap: 10px;
@@ -481,7 +461,6 @@ const K = styled.div`
   margin-bottom: 8px;
 `;
 
-/* CTA band */
 const Cta = styled.div`
   border: 1px solid ${({ theme }) => theme.colors.border};
   border-radius: 18px;

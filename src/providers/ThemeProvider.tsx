@@ -17,7 +17,6 @@ export function ThemeProvider({ children }: Props) {
 
   const theme = mode === "dark" ? darkTheme : lightTheme;
 
-  // Only apply RTL plugin when Arabic to avoid double flipping
   const stylisPlugins = useMemo(() => (isRTL ? [rtlPlugin] : []), [isRTL]);
 
   return (

@@ -91,7 +91,6 @@ export default function ListingDetail() {
               "Select date and time. We’ll confirm availability fast."
             )}
           </P>
-          {/* placeholders for Firebase later */}
           <div style={{ display: "grid", gap: 10 }}>
             <input
               type="date"

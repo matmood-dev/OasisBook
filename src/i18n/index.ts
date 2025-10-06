@@ -14,7 +14,6 @@ i18n.use(initReactI18next).init({
   interpolation: { escapeValue: false }
 });
 
-// Keep <html dir> synced
 const dir = (l: Lang) => (l === "ar" ? "rtl" : "ltr");
 document.documentElement.lang = saved;
 document.documentElement.dir = dir(saved);

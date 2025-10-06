@@ -1,4 +1,3 @@
-// src/pages/About.tsx
 import styled from "styled-components";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";

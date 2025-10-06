@@ -1,4 +1,3 @@
-// src/data/listings.ts
 import p1 from "../assets/pools/p1.jpg";
 import p2 from "../assets/pools/p2.jpg";
 import p3 from "../assets/pools/p3.avif";
