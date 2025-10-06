@@ -52,9 +52,6 @@ export default function Home() {
             <Chips>
               <Chip to="/listings?type=pool">{t("listings.pool", "Pool")}</Chip>
               <Chip to="/listings?type=camp">{t("listings.camp", "Camp")}</Chip>
-              <Chip to="/listings?area=sakhir">Sakhir</Chip>
-              <Chip to="/listings?area=muharraq">Muharraq</Chip>
-              <Chip to="/listings?area=riffa">Riffa</Chip>
             </Chips>
           </div>
 
