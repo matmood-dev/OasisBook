@@ -2,7 +2,8 @@
   "brand": "OasisBook",
   "nav": {
     "home": "Home",
-    "listings": "Listings"
+    "listings": "Listings",
+    "about": "About"
   },
   "actions": {
     "book": "Search",
@@ -52,5 +53,35 @@
     "support": "Support",
     "hosts": "Become a host",
     "madein": "Made by"
+  },
+  "about": {
+    "title": "About OasisBook",
+    "subtitle": "A Bahrain-first marketplace for booking private pools and desert camps.",
+    "mission": {
+      "title": "Our mission",
+      "body": "Make weekend planning in Bahrain simple, transparent, and fast—so families and friends spend less time coordinating and more time enjoying.",
+      "point1": "Verified listings with clear photos and rules",
+      "point2": "Up-front pricing and instant requests",
+      "point3": "Arabic and English support"
+    },
+    "how": {
+      "title": "How OasisBook works",
+      "step1": "Search by area, date, and type (pool or camp).",
+      "step2": "Compare photos, amenities, rules, and reviews.",
+      "step3": "Send a booking request and get confirmed fast."
+    },
+    "stats": {
+      "listings": "50+",
+      "listings_label": "Listings (growing)",
+      "areas": "10+",
+      "areas_label": "Areas in Bahrain",
+      "languages": "2",
+      "languages_label": "Languages supported"
+    },
+    "cta": {
+      "title": "Are you a host?",
+      "sub": "List your pool or camp and reach weekend-ready guests.",
+      "btn": "Become a host"
+    }
   }
 }
