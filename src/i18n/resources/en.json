@@ -1,0 +1,10 @@
+{
+  "brand": "OasisBook",
+  "nav": { "home": "Home", "listings": "Listings" },
+  "actions": { "book": "Book now", "theme": "Theme", "lang": "Language" },
+  "home": {
+    "title": "Find pools and camps across Bahrain",
+    "subtitle": "Search verified weekend spots. Book in minutes."
+  },
+  "listings": { "title": "Available spots", "pool": "Pool", "camp": "Camp" }
+}
