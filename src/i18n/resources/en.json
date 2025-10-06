@@ -3,7 +3,8 @@
   "nav": {
     "home": "Home",
     "listings": "Listings",
-    "about": "About"
+    "about": "About",
+    "contact": "Contact"
   },
   "actions": {
     "book": "Search",
@@ -83,5 +84,47 @@
       "sub": "List your pool or camp and reach weekend-ready guests.",
       "btn": "Become a host"
     }
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Questions, feedback, or partnership ideas? Send a message.",
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "response_hint": "We typically reply within 24 hours.",
+    "send": "Send message",
+    "sending": "Sending…",
+    "sent": "Thanks. Your message was sent.",
+    "email_label": "Email",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "faq": "FAQ",
+    "faq_hint": "Read common questions and answers."
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Common questions about booking, payments, and hosting.",
+    "search": "Search questions",
+    "all": "All categories",
+    "booking": "Booking",
+    "payments": "Payments",
+    "hosting": "Hosting",
+    "account": "Account",
+    "q1": "How do I book a pool or camp?",
+    "a1": "Open the listing, select your date and time, and send a booking request. You’ll get a confirmation by SMS or email.",
+    "q2": "How are prices set?",
+    "a2": "Hosts set their own prices. Some listings add cleaning or service fees, shown before you submit.",
+    "q3": "Can I cancel or reschedule?",
+    "a3": "Each listing has its own policy. Check the policy on the listing page before booking.",
+    "q4": "Do I need an account to book?",
+    "a4": "Yes. Creating an account lets you track requests, messages, and receipts.",
+    "q5": "I want to list my pool or camp.",
+    "a5": "Go to “Become a host”, add photos, rules, and pricing, then publish. We review new listings quickly.",
+    "q6": "What payment methods are supported?",
+    "a6": "We support common local methods and cards. Some hosts accept cash on confirmation.",
+    "q7": "Is there customer support?",
+    "a7": "Yes. Contact us via WhatsApp or the contact form for urgent issues."
   }
 }

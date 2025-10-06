@@ -24,6 +24,7 @@ export default function Navbar() {
           <Tab to="/" $active={loc.pathname === "/"}>{t("nav.home")}</Tab>
           <Tab to="/listings" $active={loc.pathname === "/listings"}>{t("nav.listings")}</Tab>
           <Tab to="/about" $active={loc.pathname === "/about"}>{t("nav.about")}</Tab>
+          <Tab to="/contact" $active={loc.pathname === "/contact"}>{t("nav.contact")}</Tab>
         </Nav>
 
         <Controls>

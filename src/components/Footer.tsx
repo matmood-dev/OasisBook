@@ -127,8 +127,6 @@ export default function Footer() {
           <List>
             <Item to="/about">{t("footer.about", "About")}</Item>
             <Item to="/contact">{t("footer.contact", "Contact")}</Item>
-            <Item to="/terms">{t("footer.terms", "Terms")}</Item>
-            <Item to="/privacy">{t("footer.privacy", "Privacy")}</Item>
           </List>
         </div>
 
@@ -136,8 +134,6 @@ export default function Footer() {
           <ColTitle>{t("footer.help", "Help")}</ColTitle>
           <List>
             <Item to="/faq">{t("footer.faq", "FAQ")}</Item>
-            <Item to="/support">{t("footer.support", "Support")}</Item>
-            <Item to="/hosts">{t("footer.hosts", "Become a host")}</Item>
           </List>
         </div>
       </Inner>
